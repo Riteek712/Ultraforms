@@ -1,0 +1,25 @@
+form operations:
+-> add a form - #done
+-> add a questionId to form - #done
+-> add tree structure of Question
+-> add the responser's id to form
+
+Question operations:
+-> creating a questionId - #done
+-> adding branches
+
+Form response operations:
+-> adding a response to a form
+-> response route
+
+Steps in creating a form:
+s1-> create a form with readyToUse field as 0.
+s2-> start creating questions, and add their ids to form.
+s3-> to add responses you need to put readyToUse as 1.
+s4-> response start:
+    form id:
+    questionIdList: string[]
+    responseList: string[]
+    responseOwnerId:
+    incentiveList:
+    responseComplete:
